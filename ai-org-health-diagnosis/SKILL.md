@@ -81,7 +81,7 @@ agent_created: true
 - 各维度得分 vs 行业基准范围
 - 公司规模对应基准
 
-详见 `references/industry-benchmarks.md`。
+详见 `references/industry-benchmarks.md`。完整的方法论说明（含数据推导、局限性、使用边界）见 `references/industry-benchmarks-methodology.md`。
 
 ### Step 3 — 组织差异分析
 按一级事业部 → 二级部门 → 三级部门逐层分析。识别显著低于/高于组织平均的部门。
