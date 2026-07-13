@@ -72,6 +72,17 @@ agent_created: true
 ### Step 2 — 整体健康度分析
 计算总体平均分、各维度得分、TOP 优势、TOP 风险。详见 `references/metric-model.md`。
 
+### Step 2.5 — 行业基准对标
+将计算结果与行业基准数据进行对比。**直接从 `references/industry-benchmarks.md` 读取基准数据，无需联网检索。**
+
+对标内容：
+- Q12 GrandMean vs Gallup P50/P75
+- 敬业度率 vs 全球/中国/行业平均
+- 各维度得分 vs 行业基准范围
+- 公司规模对应基准
+
+详见 `references/industry-benchmarks.md`。
+
 ### Step 3 — 组织差异分析
 按一级事业部 → 二级部门 → 三级部门逐层分析。识别显著低于/高于组织平均的部门。
 
@@ -91,8 +102,8 @@ agent_created: true
 
 最终报告必须包含（详见 `references/report-template.md`）：
 
-1. **执行摘要** — 一句话总结组织状态
-2. **数据洞察** — 关键数据
+1. **执行摘要** — 一句话总结组织状态 + 行业对标定位
+2. **数据洞察** — 关键数据 + 行业基准对标（从 `references/industry-benchmarks.md` 读取，无需联网）
 3. **问题地图** — 问题 + 影响范围 + 证据 + 优先级
 4. **改善建议** — 动作 + 负责人 + 周期 + 验证指标
 
