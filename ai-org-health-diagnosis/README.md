@@ -9,22 +9,24 @@ AI 组织健康度诊断 Skill
 自动生成分级报告（CEO/VP/部门经理三个版本）
 自动匹配改善动作库，生成 30/60/90 天改善计划
 工作流程
-01 SKILL.md              →  AI 工作流程（怎么诊断）
-02 metric-model.md       →  指标怎么算
-03 diagnosis-rules.md    →  问题怎么判断
-04 action-library.md     →  问题怎么解决
-05 report-template.md    →  结果怎么呈现
-06 industry-benchmarks.md → 行业基准怎么对标（内置数据，无需联网）
+01 SKILL.md                        →  AI 工作流程（怎么诊断）
+02 metric-model.md                 →  指标怎么算
+03 diagnosis-rules.md              →  问题怎么判断
+04 action-library.md               →  问题怎么解决
+05 report-template.md              →  结果怎么呈现
+06 industry-benchmarks.md          →  行业基准怎么对标（内置数据，无需联网）
+07 industry-benchmarks-methodology.md → 基准数据方法论（推导过程、局限性、使用边界）
 文件结构
 ai-org-health-diagnosis/
-├── SKILL.md                    # Skill 主文件：角色定义 + 分析流程
-├── README.md                   # 本文件
+├── SKILL.md                              # Skill 主文件：角色定义 + 分析流程
+├── README.md                             # 本文件
 └── references/
-    ├── metric-model.md         # 指标计算模型
-    ├── diagnosis-rules.md      # 诊断规则库
-    ├── action-library.md       # 改善动作库
-    ├── report-template.md      # 报告生成模板
-    └── industry-benchmarks.md  # 行业基准数据库（Gallup/Culture Amp/美世等）
+    ├── metric-model.md                   # 指标计算模型
+    ├── diagnosis-rules.md                # 诊断规则库
+    ├── action-library.md                 # 改善动作库
+    ├── report-template.md                # 报告生成模板
+    ├── industry-benchmarks.md            # 行业基准数据库（Gallup/Culture Amp/美世等）
+    └── industry-benchmarks-methodology.md # 基准数据方法论说明（推导、局限、Q&A）
 安装方法
 方法一：WorkBuddy 对话安装
 在 WorkBuddy 对话中直接输入：
